@@ -1,0 +1,2 @@
+Webdriver driver = new ChromeDriver();
+System.setProperty("webdriver.chrome.driver", "Path of the chrome driver");
