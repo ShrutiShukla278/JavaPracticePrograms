@@ -1,0 +1,10 @@
+static void Main(string[] args)
+{
+	int i=10;
+	Int32j;
+	Console.Write(i);
+}
+
+public void isDo(){
+int TEST=0;
+}
