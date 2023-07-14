@@ -1,0 +1,7 @@
+public bool to()
+        {
+            if (GetPageTitle()== "Auto Prep Report"))
+                return true;
+            else
+                return false;
+        }
