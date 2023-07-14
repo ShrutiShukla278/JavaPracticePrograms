@@ -1,0 +1,8 @@
+protected void OpenLogin_Click(object src, CommandEventArgs testisworking)
+    {
+        string DISCOVERYURI = testisworking.CommandArgument.ToString();
+        OpenIdRelyingParty OPenid= new OpenIdRelyingParty();
+        var b = new UriBuilder(Request.Url) { Query = "" };
+        var req = openid.CreateRequest(discoveryUri, b.Uri, b.Uri);
+        req.RedirectToProvider();
+    }
