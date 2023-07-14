@@ -1,0 +1,6 @@
+static void Main(string[] args)
+{
+	int i=10;
+	Int32j;
+	Console.Write(i);
+}
